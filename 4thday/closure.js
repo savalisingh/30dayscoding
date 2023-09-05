@@ -4,6 +4,7 @@ Capabilities of child function to access their parent function scope, a closure 
 1.Its own 
 2.Parents 
 3.Global
+when there is a nested function, js allows the nested function to access the outer scope of the outside function even whrn the outer function is closed.
 */
 //eg.
 function outer(){
