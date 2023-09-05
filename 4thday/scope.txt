@@ -1,0 +1,12 @@
+Scope:
+Scope is area where variables, function , classes are accessible .
+
+Types 
+1.Global:
+-Variables declared outside of any function or block have global scope.
+-Global variables are accessible from anywhere in your code, both inside and outside functions or blocks.
+-It's essential to use global variables judiciously because they can lead to naming conflicts and make it challenging to track variable usage and modifications.
+2.Local:
+-Variables declared inside a function or block have local scope.
+-Local variables are accessible only within the function or block where they are defined.
+-These variables are typically temporary and are often used to store intermediate results or values needed only within a specific context.

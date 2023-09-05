@@ -1,3 +1,22 @@
+/*
+Var
+1.	To declare variable, and we can re-declare same variable again in JS code later.
+2.	Scope of variable is global or functional
+3.	Can declare variable value again.
+Let
+1.	To declare variable, and we cannot re-declare same variable again in JS code later.
+2.	Variable have block scope. Cannot access variable form outside of block.
+3.	Can declare variable value again.
+const
+1.	To declare variable, and we cannot re-declare same variable again in JS code later.
+2.	Variable have block scope. Cannot access variable form outside of block .
+3.	We cannot declare variable value again. Value of const is fixed.
+
+note:it's a good practice to use let when you need a variable that might change its value 
+and const when you want to declare a variable that should not be re-assigned. 
+Avoid using var in modern JavaScript, as it has some quirks and doesn't provide the same level of scoping control as let and const.
+*/
+//eg. 
 {
     var a=10;
     let b=20;

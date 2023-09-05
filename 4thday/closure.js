@@ -1,3 +1,11 @@
+/*
+Closures:
+Capabilities of child function to access their parent function scope, a closure is a function scope and this has access to all 3 scope 
+1.Its own 
+2.Parents 
+3.Global
+*/
+//eg.
 function outer(){
     var g =50;
     function inner(){
