@@ -1,33 +1,21 @@
-function isPrime(number) {
-    if (number <= 1) {
-        return false;
-    }
-    if (number === 2) {
-        return true;
-    }
-    if (number % 2 === 0) {
-        return false;
-    }
-    let divisor = 3;
-    while (divisor * divisor <= number) {
-        if (number % divisor === 0) {
-            return false;
-        }
-        divisor += 2;
+function isPrime(n) {
+    if (n <= 1) return false;
+    if (n <= 3) return true;
+    if (n % 2 === 0 || n % 3 === 0) return false;
+  
+    let i = 5;
+    while (i * i <= n) {
+      if (n % i === 0 || n % (i + 2) === 0) return false;
+      i += 6;
     }
     return true;
-}
-if(number/i==);
-function prime(array) {
-    const primeNumbers = [];
-    array.forEach((value) => {
-        if (isPrime(value)) {
-            primeNumbers.push(value);
-        }
-    });
-    return primeNumbers;
-}
-
-const A1 = [1, 2, 5, 4,7, 0];
+  }
+  
+  function arePrimes(array) {
+    return array.map((value) => isPrime(value));
+  }
+  
+const A1 = [1, 2, 8,5, 4,7];
 const A2 = [1, 2, 3, 4, 5];
-console.log(prime(A));
+console.log(arePrimes(A1));
+console.log(arePrimes(A2));
