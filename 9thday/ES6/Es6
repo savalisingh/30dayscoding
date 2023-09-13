@@ -1,0 +1,20 @@
+/*
+ECMAScript 6 (ES6), also known as ECMAScript 2015,
+is the 6th and major edition of the ECMAScriopt language specification standard. 
+It defines the satandard for the implementation of js and it has become much more popular edition then ES5
+introduced a significant set of new features and enhancements to the JavaScript language. 
+These features have become an integral part of modern JavaScript development. 
+Here are list of some of the key ES6 features:
+1.Block-Scoped Declarations (let and const):
+2.Arrow Functions:
+3.Template Literals and Multiline Strings: 
+4.Destructuring Assignment: 
+5.Modules: 
+6.Spread and Rest Operators: 
+7.Default Parameters: 
+8.Classes: 
+9.Promises:
+10.Map and Set:
+11.Iterators and Generators: 
+12.Async/Await:
+*/
