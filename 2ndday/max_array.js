@@ -1,3 +1,4 @@
+//find maximum number in array
 function maxarray1(array) {
   if (array.length === 0) {
     return null;
@@ -15,4 +16,10 @@ function maxarray1(array) {
 }
 
 let myarray1 = [1, 4, -4, -43, 3, 43];
-console.log('Max number in the array:', maxarray1(myarray1));
+console.log("Max number in the array:", maxarray1(myarray1));
+
+//using method
+
+let maximum = myarray1.reduce((current, max) =>current > max ? `${current}` : `${max}`,maxarray1[0] );
+
+console.log(`Max number in the array is: ${maximum}`);

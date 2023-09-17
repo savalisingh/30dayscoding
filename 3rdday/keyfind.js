@@ -1,3 +1,4 @@
+//find key
 function keyfind(array, target) {
   return array.includes(target);
 }

@@ -1,3 +1,4 @@
+//finding if arrays are equal
 function arrayequal(array1,array2){
     if (array1.length !== array2.length){
         return false;
@@ -26,3 +27,16 @@ if (arrayequal(E,F)){
 }else{
     console.log('not equal')
 }
+
+//using method
+let equal = (array1, array2) =>
+  array1.every((element1) => {
+    return array2.some((element2) => element1 === element2);
+  });
+
+if (equal(E,F) === true) {
+  console.log("both are equal");
+} else {
+  console.log("not equal");
+}
+
